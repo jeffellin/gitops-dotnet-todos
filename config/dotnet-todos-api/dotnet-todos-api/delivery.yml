@@ -30,7 +30,7 @@ spec:
         kapp.k14s.io/association: v1.91be2a1e36d2d1da26a69e9d369139b0
     spec:
       containers:
-      - image: harbor.one.appref.end2end.link/tap/sc/dotnet-todos-api-dotnet-todos-api@sha256:54f3c2d8f83eae8a8150af73094e6a5389d206239fd828058359bc865f5a9cfb
+      - image: harbor.one.appref.end2end.link/tap/sc/dotnet-todos-api-dotnet-todos-api@sha256:f2d317c515e428e9f11dbc52b46bcf6c67f74885dd915d5c243a57a43ac7ca37
         name: workload
         resources: {}
         securityContext:
