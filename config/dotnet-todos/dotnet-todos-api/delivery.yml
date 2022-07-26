@@ -36,7 +36,7 @@ spec:
             secretKeyRef:
               key: connection-string
               name: api-db-credentials
-        image: harbor.one.appref.end2end.link/tap/sc/dotnet-todos-api-dotnet-todos@sha256:293a176e04af11d915dc491506e344cee44116fc1046198d6ff46cee9a8e9fa9
+        image: harbor.one.appref.end2end.link/tap/sc/dotnet-todos-api-dotnet-todos@sha256:75f28d9a7ee357a96e5d26790f1ad1544494e6de399c045c17f3e3953e650157
         name: workload
         resources: {}
         securityContext:
