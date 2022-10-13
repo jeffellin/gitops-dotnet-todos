@@ -45,7 +45,7 @@ spec:
             secretKeyRef:
               key: connection-string
               name: api-db-credentials
-        image: harbor.h2o-4-1396.h2o.vmware.com/tap/sc/dotnet-todos-api-dotnet-todos@sha256:af7c8667f43610662d050d85bb94a96eafda87a051bce62d1f41beee05743837
+        image: harbor.h2o-4-1396.h2o.vmware.com/tap/sc/dotnet-todos-api-dotnet-todos@sha256:94c026817ad403898a2545ceafeddf1a887aec09423faf06f8a479f9a22bdecc
         name: workload
         resources: {}
         securityContext:
