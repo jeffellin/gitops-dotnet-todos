@@ -33,7 +33,7 @@ spec:
         kapp.k14s.io/association: v1.4623672940223fad09b1b51d9d24cfd9
     spec:
       containers:
-      - image: harbor.h2o-4-1396.h2o.vmware.com/tap/sc/dotnet-todos-app-dotnet-todos@sha256:3d87d2ef03b4f9b562808590ef7fab9ceb72b87c78b800bc5f288ba6d996fc37
+      - image: harbor.h2o-4-1396.h2o.vmware.com/tap/sc/dotnet-todos-app-dotnet-todos@sha256:45428a2879c2efd8f5e43e34e8e79c645b666f5069f1d89b4a2596cb2946dcc1
         name: workload
         resources: {}
         securityContext:
