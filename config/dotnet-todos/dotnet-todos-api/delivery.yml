@@ -45,7 +45,7 @@ spec:
             secretKeyRef:
               key: connection-string
               name: api-db-credentials
-        image: registry.gcp.ellin.net/tap/sc/dotnet-todos-api-dotnet-todos@sha256:8f9bd48d21ce3361a217d30f7c7fcd45cf0e2017b8f6adba78368f3462308c5f
+        image: registry.gcp.ellin.net/tap/sc/dotnet-todos-api-dotnet-todos@sha256:24cbdd16d16d806310ea78c1b9d21d93715ce54e02906bed4eff48b3e5fb92c9
         name: workload
         resources: {}
         securityContext:
