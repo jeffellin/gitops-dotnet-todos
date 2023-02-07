@@ -36,7 +36,7 @@ spec:
         kapp.k14s.io/association: v1.4623672940223fad09b1b51d9d24cfd9
     spec:
       containers:
-      - image: registry.gcp.ellin.net/tap/sc/dotnet-todos-app-dotnet-todos@sha256:adb3a0d8906f6d31362ac23c77f8cb80884379ebb4d76ed1625aec87e5538988
+      - image: registry.gcp.ellin.net/tap/sc/dotnet-todos-app-dotnet-todos@sha256:f1cfef9eb5a1775c7243815933933c7ac32eef1d37d16d3a5f8d7e172a30c200
         name: workload
         resources: {}
         securityContext:
